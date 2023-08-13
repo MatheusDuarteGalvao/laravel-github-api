@@ -1,6 +1,6 @@
 # Consumo de API do GitHub utilizando fetch com Laravel
 
-Em exemplo de aplicação Laravel com uma consulta da API de usuários do GitHub.
+Um exemplo de aplicação Laravel com uma consulta da API de usuários do GitHub.
 
 ## Passo a passo para consulta
 
