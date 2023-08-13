@@ -2,7 +2,7 @@
 
 Em exemplo de aplicação Laravel com uma consulta da API de usuários do GitHub.
 
-## Passo a passa para consulta
+## Passo a passo para consulta
 
 Basta digitar o nome de usuário que deseja encontrar, sendo o mesmo válido uma tabela com os dados retornada, dentre esses dados há o Avatar, número de usuário, nome, localização, quantidade de repositórios públicos e privados além de um link para visualização do perfil deste usuário. Os dados são encaminhados via ajax para a rota interna de busca, a qual é responsável por realizar a consulta na api do GitHub e retornar os dados em formato JSON.
 
