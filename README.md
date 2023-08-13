@@ -1,4 +1,4 @@
-# Consumo de API do GitHub utilizando fetch do laravel
+# Consumo de API do GitHub utilizando fetch com Laravel
 
 Em exemplo de aplicação Laravel com uma consulta da API de usuários do GitHub.
 
