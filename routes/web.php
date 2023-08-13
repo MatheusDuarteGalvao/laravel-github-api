@@ -1,18 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GithubUserController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+/**
+ * Rota principal da aplicação
+ */
+Route::get('/', [GithubUserController::class, 'index']);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/**
+ * Rota para busca de usuário do GitHub
+ */
+Route::get('/search/{usuario}', [GithubUserController::class, 'search']);
